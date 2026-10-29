@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Background Changer</title>
+</head>
+<body>
+<button onclick="changeColor()">Change Color</button>
+<button onclick="changeBackgroundImage()">Change Background Image</button>
+<button onclick="resetBackground()">Resume to Normal</button>
+<script>
+const originalColor = "white";
+const originalImage = "";
+function changeColor(){
+document.body.style.backgroundImage = "";
+document.body.style.backgroundColor = "blue";
+}
+function changeBackgroundImage(){
+document.body.style.backgroundImage="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QUHFfn7GaiWcJmqjRRpQ72ROf1BxcEdftSTtmXCqSg&s=10')";
+document.body.stylebackgroundColor = "";
+}
+function resetBackground(){
+document.body.style.background = originalColor;
+document.body.style.background = originalImage;
+}
+</script>
+</body>
+</html>

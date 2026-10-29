@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knockout Boxing Academy</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #d00000;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .boxing-image {
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            height: 350px;
+            object-fit: cover;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #d00000;
+            color: white;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1> Knockout Boxing Academy</h1>
+        <p>Train Hard. Stay Fit. Become a Champion.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#training">Training</a>
+        <a href="#students">Students</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Introduction -->
+    <section id="about" class="intro">
+        <h2>Welcome to Knockout Boxing Academy</h2>
+
+        <p>
+            Welcome to Knockout Boxing Academy, where people of <strong>all ages</strong>
+            are welcome to learn boxing. Our academy provides professional boxing
+            practice for students who want to participate in competitions, as well as
+            training for people who simply want to improve their fitness and confidence.
+        </p>
+
+        <p>
+            Whether your goal is to become a professional boxer or simply stay healthy,
+            our experienced trainers will help you improve your strength, speed,
+            stamina, technique and discipline.
+        </p>
+
+        <!-- Boxing Image -->
+        <img
+            class="boxing-image"
+            src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1000&q=80"
+            alt="Boxing training at a boxing academy">
+    </section>
+
+    <!-- Training Details -->
+    <section id="training">
+        <h2>Our Training Programs</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3> Beginner Boxing</h3>
+                <p>
+                    Learn basic boxing techniques, footwork, punching,
+                    defense and proper training methods.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Competition Training</h3>
+                <p>
+                    Advanced training for students who want to participate
+                    in amateur and professional boxing competitions.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3> Fitness Boxing</h3>
+                <p>
+                    Boxing-based workouts designed to improve fitness,
+                    strength, stamina and overall health.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Student Details -->
+    <section id="students">
+        <h2>Our Students</h2>
+
+        <p>
+            Our academy has students from different age groups and experience levels.
+            Here are some examples of our students:
+        </p>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Level</th>
+                <th>Training Goal</th>
+            </tr>
+
+            <tr>
+                <td>Judian</td>
+                <td>16</td>
+                <td>Intermediate</td>
+                <td>Boxing Competition</td>
+            </tr>
+
+            <tr>
+                <td>Jenifer</td>
+                <td>21</td>
+                <td>Advanced</td>
+                <td>Professional Boxing</td>
+            </tr>
+
+            <tr>
+                <td>Rozario</td>
+                <td>19</td>
+                <td>Beginner</td>
+                <td>Fitness</td>
+            </tr>
+
+            <tr>
+                <td>Elias</td>
+                <td>25</td>
+                <td>Beginner</td>
+                <td>Health & Fitness</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p><strong> Address:</strong> 123 Champion Street, Your City</p>
+        <p><strong> Phone:</strong> +91 ***** *****</p>
+        <p><strong> Email:</strong> knockoutacademy@example.com</p>
+
+        <h3>Join Our Academy Today!</h3>
+        <p>
+            All ages and experience levels are welcome. Come and start your
+            boxing journey with us!
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Knockout Boxing Academy. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
