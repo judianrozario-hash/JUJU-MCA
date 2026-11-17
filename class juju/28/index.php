@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electricity Bill</title>
+</head>
+<body>
+
+<h2>Electricity Bill Calculator</h2>
+
+<form action="bill.php" method="post">
+
+    Enter Units Consumed:
+    <input type="number" name="units" required>
+    <br><br>
+
+    Enter Tariff Rate:
+    <input type="number" name="rate" step="0.01" required>
+    <br><br>
+
+    <input type="submit" value="Calculate Bill">
+
+</form>
+</body>
+</html>
